@@ -1,0 +1,95 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0BB1826C-9647-4CE9-9B5F-F5B4D68F63B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Carlop</RootNamespace>
+    <AssemblyName>Carlop.BaseLib</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\System\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Source\ClassLib\appMessaging.cs" />
+    <Compile Include="Source\ClassLib\classMetadata.cs" />
+    <Compile Include="Source\ClassLib\ImagelistHelper.cs" />
+    <Compile Include="Source\ClassLib\Encryption\encryptionAsymmetric.cs" />
+    <Compile Include="Source\ClassLib\Encryption\encryptionData.cs" />
+    <Compile Include="Source\ClassLib\Encryption\encryptionHash.cs" />
+    <Compile Include="Source\ClassLib\Encryption\encryptionSymmetric.cs" />
+    <Compile Include="Source\ClassLib\Encryption\encryptionHelpers.cs" />
+    <Compile Include="Source\ClassLib\Encryption\encryptionUtils.cs" />
+    <Compile Include="Source\ClassLib\patterns.cs" />
+    <Compile Include="Source\ClassLib\multiSignalThread.cs" />
+    <Compile Include="Source\ClassLib\scriptHelper.cs" />
+    <Compile Include="Source\Configuration\storageAttachedCfg.cs" />
+    <Compile Include="Source\Graphic\abstractHandler.cs" />
+    <Compile Include="Source\Graphic\BmpLoader.cs" />
+    <Compile Include="Source\Graphic\IcoHandler.cs" />
+    <Compile Include="Source\Graphic\IcoLoader.cs" />
+    <Compile Include="Source\Utils\reflection.cs" />
+    <Compile Include="Source\Utils\serialization.cs" />
+    <Compile Include="Source\ClassLib\unitTesting.cs" />
+    <Compile Include="Source\ClassLib\scriptHelperXML.cs" />
+    <Compile Include="Source\Configuration\cfgEvents.cs" />
+    <Compile Include="Source\Configuration\cfgProviderBase.cs" />
+    <Compile Include="Source\Configuration\cfgProviderInterface.cs" />
+    <Compile Include="Source\Configuration\cfgStorageConfig.cs" />
+    <Compile Include="Source\Configuration\cfgStorageIniFile.cs" />
+    <Compile Include="Source\Configuration\cfgStorageRegistry.cs" />
+    <Compile Include="Source\Configuration\cfgStorageSql.cs" />
+    <Compile Include="Source\Configuration\cfgStorageXmlFile.cs" />
+    <Compile Include="Source\Configuration\cfgStorageXmlHelper.cs" />
+    <Compile Include="Source\Data\CommonSqlTypes.cs" />
+    <Compile Include="Source\Data\DbUtils.cs" />
+    <Compile Include="Source\Data\SQLServerInfo.cs" />
+    <Compile Include="Source\Instrumentation\perfCounter.cs" />
+    <Compile Include="Source\Utils\encryption.cs" />
+    <Compile Include="Source\Utils\strings.cs" />
+    <Compile Include="Source\Utils\xml.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
