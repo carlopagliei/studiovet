@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bool_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="bool_Yes" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="btn_acquire" xml:space="preserve">
+    <value>Acquisisci da scanner</value>
+  </data>
+  <data name="btn_AddAnimal" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="btn_addFile" xml:space="preserve">
+    <value>Aggiungi file</value>
+  </data>
+  <data name="btn_apply_changes" xml:space="preserve">
+    <value>Applica</value>
+  </data>
+  <data name="btn_captureFolder" xml:space="preserve">
+    <value>Auto-Cattura files</value>
+  </data>
+  <data name="btn_createInvoice" xml:space="preserve">
+    <value>Crea fattura</value>
+  </data>
+  <data name="btn_DelAnimal" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="btn_delete" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="btn_EditAnimal" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="btn_explore" xml:space="preserve">
+    <value>Esplora</value>
+  </data>
+  <data name="btn_explorePath" xml:space="preserve">
+    <value>Esplora cartella</value>
+  </data>
+  <data name="btn_navigateFiles" xml:space="preserve">
+    <value>Esplora Files</value>
+  </data>
+  <data name="btn_OpenVisits" xml:space="preserve">
+    <value>Visite</value>
+  </data>
+  <data name="btn_pageSetup" xml:space="preserve">
+    <value>Imposta pagina</value>
+  </data>
+  <data name="btn_print" xml:space="preserve">
+    <value>Stampa</value>
+  </data>
+  <data name="btn_printInvoice" xml:space="preserve">
+    <value>Stampa fattura</value>
+  </data>
+  <data name="btn_printReport" xml:space="preserve">
+    <value>Stampa referto</value>
+  </data>
+  <data name="btn_shellexec" xml:space="preserve">
+    <value>Esegui</value>
+  </data>
+  <data name="btn_undo_changes" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="dbcol_animal_animalid" xml:space="preserve">
+    <value>Codice</value>
+  </data>
+  <data name="dbcol_animal_label" xml:space="preserve">
+    <value>Mnemonico</value>
+  </data>
+  <data name="dbcol_animal_race" xml:space="preserve">
+    <value>Razza</value>
+  </data>
+  <data name="dbcol_animal_species" xml:space="preserve">
+    <value>Specie</value>
+  </data>
+  <data name="dbcol_dispense_charge" xml:space="preserve">
+    <value>Charge</value>
+  </data>
+  <data name="dbcol_dispense_dispenseid" xml:space="preserve">
+    <value>Codice somministazione</value>
+  </data>
+  <data name="dbcol_dispense_notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="dbcol_dispense_pharmaceuticalid" xml:space="preserve">
+    <value>Codice farmaco</value>
+  </data>
+  <data name="dbcol_dispense_quantity" xml:space="preserve">
+    <value>Quantità</value>
+  </data>
+  <data name="dbcol_dispense_quantity_abb" xml:space="preserve">
+    <value>Qt.</value>
+  </data>
+  <data name="dbcol_dispense_visitid" xml:space="preserve">
+    <value>Codice visita</value>
+  </data>
+  <data name="dbcol_document_description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="dbcol_document_documentid" xml:space="preserve">
+    <value>Codice documento</value>
+  </data>
+  <data name="dbcol_document_filename" xml:space="preserve">
+    <value>Nome file</value>
+  </data>
+  <data name="dbcol_document_notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="dbcol_document_printflag" xml:space="preserve">
+    <value>Stampa</value>
+  </data>
+  <data name="dbcol_document_visitid" xml:space="preserve">
+    <value>Codice visita</value>
+  </data>
+  <data name="dbcol_patient_animalid" xml:space="preserve">
+    <value>Codice Animale</value>
+  </data>
+  <data name="dbcol_patient_birthdate" xml:space="preserve">
+    <value>Data di nascita</value>
+  </data>
+  <data name="dbcol_patient_firstname" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="dbcol_patient_identification" xml:space="preserve">
+    <value>Identificazione</value>
+  </data>
+  <data name="dbcol_patient_notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="dbcol_patient_patientid" xml:space="preserve">
+    <value>Codice Paziente</value>
+  </data>
+  <data name="dbcol_patient_personid" xml:space="preserve">
+    <value>Codice Proprietario</value>
+  </data>
+  <data name="dbcol_person_addressline1" xml:space="preserve">
+    <value>Indirizzo 1</value>
+  </data>
+  <data name="dbcol_person_addressline2" xml:space="preserve">
+    <value>Indirizzo 2</value>
+  </data>
+  <data name="dbcol_person_birthcity" xml:space="preserve">
+    <value>Luogo di nascita</value>
+  </data>
+  <data name="dbcol_person_birthdate" xml:space="preserve">
+    <value>Data di nascita</value>
+  </data>
+  <data name="dbcol_person_city" xml:space="preserve">
+    <value>Città</value>
+  </data>
+  <data name="dbcol_person_country" xml:space="preserve">
+    <value>Nazione</value>
+  </data>
+  <data name="dbcol_person_email" xml:space="preserve">
+    <value>EMail</value>
+  </data>
+  <data name="dbcol_person_fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="dbcol_person_firstname" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="dbcol_person_lastname" xml:space="preserve">
+    <value>Cognome</value>
+  </data>
+  <data name="dbcol_person_notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="dbcol_person_personid" xml:space="preserve">
+    <value>Codice</value>
+  </data>
+  <data name="dbcol_person_phone1" xml:space="preserve">
+    <value>Telefono 1</value>
+  </data>
+  <data name="dbcol_person_phone2" xml:space="preserve">
+    <value>Telefono 2</value>
+  </data>
+  <data name="dbcol_person_province" xml:space="preserve">
+    <value>Provincia</value>
+  </data>
+  <data name="dbcol_person_taxcode" xml:space="preserve">
+    <value>Codice Fiscale</value>
+  </data>
+  <data name="dbcol_person_vatnumber" xml:space="preserve">
+    <value>Partita IVA</value>
+  </data>
+  <data name="dbcol_person_zipcode" xml:space="preserve">
+    <value>CAP</value>
+  </data>
+  <data name="dbcol_pharmaceutical_booster" xml:space="preserve">
+    <value>Richiamo</value>
+  </data>
+  <data name="dbcol_pharmaceutical_description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="dbcol_pharmaceutical_isvaccine" xml:space="preserve">
+    <value>Vaccino</value>
+  </data>
+  <data name="dbcol_pharmaceutical_label" xml:space="preserve">
+    <value>Mnemonico</value>
+  </data>
+  <data name="dbcol_pharmaceutical_pharmaceuticalid" xml:space="preserve">
+    <value>Codice</value>
+  </data>
+  <data name="dbcol_pharmaceutical_rate" xml:space="preserve">
+    <value>Prezzo</value>
+  </data>
+  <data name="dbcol_reminder_completed" xml:space="preserve">
+    <value>Completato</value>
+  </data>
+  <data name="dbcol_reminder_description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="dbcol_reminder_duedate" xml:space="preserve">
+    <value>Scadenza</value>
+  </data>
+  <data name="dbcol_reminder_notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="dbcol_reminder_reminderid" xml:space="preserve">
+    <value>Codice</value>
+  </data>
+  <data name="dbcol_reminder_visitid" xml:space="preserve">
+    <value>Codice visita</value>
+  </data>
+  <data name="dbcol_reminder_warning" xml:space="preserve">
+    <value>Preavviso</value>
+  </data>
+  <data name="dbcol_service_charge" xml:space="preserve">
+    <value>Costo</value>
+  </data>
+  <data name="dbcol_service_notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="dbcol_service_serviceid" xml:space="preserve">
+    <value>Cod. prestazione</value>
+  </data>
+  <data name="dbcol_service_servicetypeid" xml:space="preserve">
+    <value>Tipo servizio</value>
+  </data>
+  <data name="dbcol_service_visitid" xml:space="preserve">
+    <value>Cod. visita</value>
+  </data>
+  <data name="dbcol_servicetype_description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="dbcol_servicetype_label" xml:space="preserve">
+    <value>Mnemonico</value>
+  </data>
+  <data name="dbcol_servicetype_rate" xml:space="preserve">
+    <value>Tariffa</value>
+  </data>
+  <data name="dbcol_servicetype_servicetypeid" xml:space="preserve">
+    <value>Codice</value>
+  </data>
+  <data name="dbcol_visit_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="dbcol_visit_doctor" xml:space="preserve">
+    <value>Doctor</value>
+  </data>
+  <data name="dbcol_visit_notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="dbcol_visit_patientid" xml:space="preserve">
+    <value>Cod. Paziente</value>
+  </data>
+  <data name="dbcol_visit_report" xml:space="preserve">
+    <value>Referto</value>
+  </data>
+  <data name="dbcol_visit_visitdate" xml:space="preserve">
+    <value>Data visita</value>
+  </data>
+  <data name="dbcol_visit_visitid" xml:space="preserve">
+    <value>Cod. visita</value>
+  </data>
+  <data name="dbcol_visit_visittypeid" xml:space="preserve">
+    <value>Tipo visita</value>
+  </data>
+  <data name="dbcol_visittype_description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="dbcol_visittype_label" xml:space="preserve">
+    <value>Mnemonico</value>
+  </data>
+  <data name="dbcol_visittype_visittypeid" xml:space="preserve">
+    <value>Codice</value>
+  </data>
+  <data name="dbcol_zipcode_address2" xml:space="preserve">
+    <value>Indirizzo 2</value>
+  </data>
+  <data name="dbcol_zipcode_city1" xml:space="preserve">
+    <value>Comune 1</value>
+  </data>
+  <data name="dbcol_zipcode_city2" xml:space="preserve">
+    <value>Comune 2</value>
+  </data>
+  <data name="dbcol_zipcode_country" xml:space="preserve">
+    <value>Nazione</value>
+  </data>
+  <data name="dbcol_zipcode_dug" xml:space="preserve">
+    <value>DUG</value>
+  </data>
+  <data name="dbcol_zipcode_fraction1" xml:space="preserve">
+    <value>Frazione 1</value>
+  </data>
+  <data name="dbcol_zipcode_fraction2" xml:space="preserve">
+    <value>Frazione 2</value>
+  </data>
+  <data name="dbcol_zipcode_number" xml:space="preserve">
+    <value>Numerazione</value>
+  </data>
+  <data name="dlg_error" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="dlg_save_changes" xml:space="preserve">
+    <value>Salvare i cambiamenti prima di uscire ?</value>
+  </data>
+  <data name="ppsearch_address" xml:space="preserve">
+    <value>Indirizzo</value>
+  </data>
+  <data name="ppsearch_alabel" xml:space="preserve">
+    <value>Mnemonico</value>
+  </data>
+  <data name="ppsearch_arace" xml:space="preserve">
+    <value>razza</value>
+  </data>
+  <data name="ppsearch_aspecies" xml:space="preserve">
+    <value>Specie</value>
+  </data>
+  <data name="ppsearch_pfirstname" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="ppsearch_plastname" xml:space="preserve">
+    <value>Cognome</value>
+  </data>
+  <data name="print_footer" xml:space="preserve">
+    <value>Stampato con StudioVet</value>
+  </data>
+  <data name="str_acquisitionFailed" xml:space="preserve">
+    <value>Acquisizione da dispositivo WIA fallita</value>
+  </data>
+  <data name="str_address" xml:space="preserve">
+    <value>Indirizzo</value>
+  </data>
+  <data name="str_animal" xml:space="preserve">
+    <value>Animale</value>
+  </data>
+  <data name="str_Animal_Directory" xml:space="preserve">
+    <value>Anagrafica Animali</value>
+  </data>
+  <data name="str_Animals" xml:space="preserve">
+    <value>Animali</value>
+  </data>
+  <data name="str_Boosters" xml:space="preserve">
+    <value>Richiami</value>
+  </data>
+  <data name="str_code" xml:space="preserve">
+    <value>Codice</value>
+  </data>
+  <data name="str_Customer_Form" xml:space="preserve">
+    <value>Scheda Cliente</value>
+  </data>
+  <data name="str_date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="str_delLastInvoice" xml:space="preserve">
+    <value>Elimina ultima fattura</value>
+  </data>
+  <data name="str_description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="str_dispenses" xml:space="preserve">
+    <value>Somministazioni</value>
+  </data>
+  <data name="str_doctor" xml:space="preserve">
+    <value>Medico</value>
+  </data>
+  <data name="str_documents" xml:space="preserve">
+    <value>Documenti</value>
+  </data>
+  <data name="str_Edit" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="str_Failed" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="str_html" xml:space="preserve">
+    <value>Html</value>
+  </data>
+  <data name="str_invoice" xml:space="preserve">
+    <value>Fattura</value>
+  </data>
+  <data name="str_invoiceColCode" xml:space="preserve">
+    <value>CODICE</value>
+  </data>
+  <data name="str_invoiceColDescription" xml:space="preserve">
+    <value>DESCRIZIONE</value>
+  </data>
+  <data name="str_invoiceColQuantity" xml:space="preserve">
+    <value>QUANTITA'</value>
+  </data>
+  <data name="str_invoiceColUnitPrice" xml:space="preserve">
+    <value>PREZZO UNITARIO</value>
+  </data>
+  <data name="str_invoiceCurrency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="str_invoiceCustomerDataTitle" xml:space="preserve">
+    <value>Destinatario</value>
+  </data>
+  <data name="str_invoiceDataTitle" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="str_invoiceDate" xml:space="preserve">
+    <value>Data fattura</value>
+  </data>
+  <data name="str_invoiceGrandTotal" xml:space="preserve">
+    <value>Totale documento</value>
+  </data>
+  <data name="str_invoiceNum" xml:space="preserve">
+    <value>Numero fattura</value>
+  </data>
+  <data name="str_invoicePaymentOther" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="str_invoicePaymentTerms" xml:space="preserve">
+    <value>Pagamento</value>
+  </data>
+  <data name="str_invoiceTax" xml:space="preserve">
+    <value>Totale imposta</value>
+  </data>
+  <data name="str_invoiceTaxCodeAbb" xml:space="preserve">
+    <value>C.F.</value>
+  </data>
+  <data name="str_invoiceTaxIncome" xml:space="preserve">
+    <value>Totale imponibile</value>
+  </data>
+  <data name="str_invoiceTitle" xml:space="preserve">
+    <value>Prestazioni e somministazioni</value>
+  </data>
+  <data name="str_invoiceTotal" xml:space="preserve">
+    <value>Totale</value>
+  </data>
+  <data name="str_invoiceVat" xml:space="preserve">
+    <value>IVA</value>
+  </data>
+  <data name="str_invoiceVatAbb" xml:space="preserve">
+    <value>P.I.</value>
+  </data>
+  <data name="str_Month" xml:space="preserve">
+    <value>Mese</value>
+  </data>
+  <data name="str_nameAndSurname" xml:space="preserve">
+    <value>Nome e Cognome</value>
+  </data>
+  <data name="str_needRestart" xml:space="preserve">
+    <value>Le impostazioni saranno utilizzate al prossimo riavvio del programma</value>
+  </data>
+  <data name="str_NewVisit" xml:space="preserve">
+    <value>Nuova visita</value>
+  </data>
+  <data name="str_notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="str_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="str_oopsTextIsEmpty" xml:space="preserve">
+    <value>Il testo della ricerca è vuoto. Riprova.</value>
+  </data>
+  <data name="str_owner" xml:space="preserve">
+    <value>Proprietario</value>
+  </data>
+  <data name="str_Patient" xml:space="preserve">
+    <value>Paziente</value>
+  </data>
+  <data name="str_Patient_Form" xml:space="preserve">
+    <value>Scheda Paziente</value>
+  </data>
+  <data name="str_period" xml:space="preserve">
+    <value>Periodo</value>
+  </data>
+  <data name="str_Pharmaceutical_Directory" xml:space="preserve">
+    <value>Anagrafica Farmaci</value>
+  </data>
+  <data name="str_ReadOnly" xml:space="preserve">
+    <value>Solo Lettura</value>
+  </data>
+  <data name="str_refresh" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+  <data name="str_reminderCdown" xml:space="preserve">
+    <value>Giorni rimasti</value>
+  </data>
+  <data name="str_report" xml:space="preserve">
+    <value>Referto</value>
+  </data>
+  <data name="str_Service_Directory" xml:space="preserve">
+    <value>Anagrafica Prestazioni</value>
+  </data>
+  <data name="str_services" xml:space="preserve">
+    <value>Prestazioni</value>
+  </data>
+  <data name="str_sureToDelInvoice" xml:space="preserve">
+    <value>Sei sicuro di voler eliminare l'ultima fattura emessa ?</value>
+  </data>
+  <data name="str_vaccinations" xml:space="preserve">
+    <value>Vaccinazioni</value>
+  </data>
+  <data name="str_vatParseError" xml:space="preserve">
+    <value>Valore IVA non valido. Inserire il valore in percentuale e controllare il carattere usato per la virgola</value>
+  </data>
+  <data name="str_Visit_Directory" xml:space="preserve">
+    <value>Anagrafica Visite</value>
+  </data>
+  <data name="str_visits" xml:space="preserve">
+    <value>Visite</value>
+  </data>
+  <data name="str_visitType" xml:space="preserve">
+    <value>Tipo di visita</value>
+  </data>
+  <data name="str_Year" xml:space="preserve">
+    <value>Anno</value>
+  </data>
+</root>

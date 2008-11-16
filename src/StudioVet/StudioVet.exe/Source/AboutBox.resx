@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="logoPictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="logoPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="logoPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 138</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logoPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logoPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;logoPictureBox.Name" xml:space="preserve">
+    <value>logoPictureBox</value>
+  </data>
+  <data name="&gt;&gt;logoPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logoPictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;logoPictureBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 27.75pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 10</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 43</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>StudioVet   1.0</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 60</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 14</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>StudioVet 1.0</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 74</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 14</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>(c) Copyright by Carlo Pagliei</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 88</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 14</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>All rights reserved</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 114</value>
+  </data>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 14</value>
+  </data>
+  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>http://www.carlop.com</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
+    <value>linkLabel1</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 191</value>
+  </data>
+  <data name="textBox1.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox1.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>599, 153</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>===========================================================================
+
+Carlo Pagliei
+http://www.carlop.com
+carlo.pagliei@gmail.com
+
+===========================================================================
+   ENGLISH
+===========================================================================
+
+StudioVet is an application designed to help the daily work in a vetrinary office.
+
+
+All the material produced by the Author is copyright by Carlo Pagliei (www.carlop.com), 
+with the exception of all dependencies and libraries that are distributed with limited 
+licenses by each owner and/or holder.
+
+This is a preliminary version (beta) of the software and is licensed under the following
+conditions:
+
+1) You need to register to use this software. Write a mail to carlo.pagliei@gmail.com
+   and you will receive a prompt reply that will grant you unlimited version of the
+   following version
+2) You can use it without restriction, you will not be charged in any way.
+3) You have no right to receive updates, this is at the author discreption
+4) You cannot redistribute it whithout the written permission of the author
+5) You use the program at your own risk - the author accepts no responsibility 
+   for any problems or losses which might arise from its use, and support for the 
+   software is not guaranteed.
+7) No supported is provided. Write a mail to carlo.pagliei@gmail.com and I will
+   be glad to help you
+6) A special credit to "Clinica Veterinaria Pandora" that had active partecipation
+   in building this software. Unlimited usage and software updates are granted.
+
+
+All logos, names and products are registred trade-marks and/or copyrigth of the 
+respective holders and owners.
+
+
+---------------------------------------------------------------------------
+
+CONDITION OF USE
+THIS PROGRAM IS A BETA VERSION AND IS FREE TO USE.
+YOU USE THE PROGRAM AT YOUR OWN RISK - THE AUTHOR ACCEPTS NO RESPONSIBILITY FOR 
+ANY PROBLEMS OR LOSSES WHICH MIGHT ARISE FROM ITS USE, AND SUPPORT FOR THE SOFTWARE 
+IS NOT GUARANTEED.
+ALL KIND OF INFORMATION ARE PROVIDED ON A "AS IS" BASIS WITHOUT WARRANTY OF ANY KIND. 
+THE PRODUCER DISCLAIMS ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING THE 
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  IN NO EVENT SHALL 
+THE PRODUCER OR ITS SUPPLIERS BE LIABLE FOR ANY DAMAGES WHATSOEVER INCLUDING DIRECT, 
+INDIRECT, INCIDENTAL, CONSEQUENTIAL, LOSS OF BUSINESS PROFITS OR SPECIAL DAMAGES, EVEN 
+IF THE PRODUCER OR ITS SUPPLIERS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+THE PRODUCER DOES NOT WARRANT THAT THE FUNCTIONS FOR THE LICENSED SOFTWARE FOR CODE 
+CONTAINED IN THE PACKAGE WILL MEET YOUR REQUIREMENTS, OR THAT THE OPERATION OF THE 
+LICENSED SOFTWARE OR CODE WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN THE 
+LICENSED SOFTWARE OR CODE CAN BE CORRECTED.  FURTHERMORE, THE PRODUCER DOES NOT WARRANT 
+OR MAKE ANY REPRESENTATIONS REGARDING THE USE OR THE RESULTS OF THE USE OF THE LICENSED 
+SOFTWARE, CODE OR RELATED DOCUMENTATION IN TERMS OF THEIR CORRECTNESS, ACCURACY, RELIABILITY, 
+OR OTHERWISE.  NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY THE PRODUCER OR ITS 
+AUTHORIZED REPRESENTATIVES SHALL CREATE A WARRANTY OR IN ANY WAY INCREASE THE SCOPE OF THIS 
+WARRANTY.  SHOULD THE LICENSED SOFTWARE OR CODE PROVE DEFECTIVE AFTER THE PRODUCER HAS 
+DELIVERED THE SAME, YOU, AND YOU ALONE, SHALL ASSUME THE ENTIRE COST ASSOCIATED WITH ALL 
+NECESSARY SERVICING, REPAIR OR CORRECTION.
+NO LIABILITY FOR CONSEQUENTIAL DAMAGES. IN NO EVENT SHALL THE AUTHOR OR ITS SUPPLIERS 
+BE LIABLE TO YOU FOR ANY CONSEQUENTIAL, SPECIAL, INCIDENTAL OR INDIRECT DAMAGES OF ANY 
+KIND ARISING OUT OF THE DELIVERY, PERFORMANCE OR USE OF THE SOFTWARE, EVEN IF THE AUTHOR 
+HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN NO EVENT WILL THE AUTHOR'S LIABILITY 
+FOR ANY CLAIM, WHETHER IN CONTRACT, TORT OR ANY OTHER THEORY OF LIABILITY, EXCEED THE LICENSE 
+FEE PAID BY YOU, IF ANY.
+
+ALL LOGOS, NAMES, PRODUCTS, ECCETERA, ARE REGISTERED TRADEMARKS AND/OR COPYRIGHT OF THE 
+RESPECTIVE HOLDERS AND OWNERS.
+
+
+
+
+
+===========================================================================
+   ITALIANO
+===========================================================================
+
+StudioVet è un programma per la gestione di uno studio veterinario
+
+
+
+
+
+All the material produced by the Author is copyright by Carlo Pagliei (www.carlop.com), 
+with the exception of all dependencies and libraries that are distributed with limited 
+licenses by each owner and/or holder.
+
+Questa e' una versione preliminare del software (beta) e viene licenziato alle seguenti 
+condizioni:
+
+1) E' necessario registrarsi per utilizzare questo software. Scrivi una mail a 
+   carlo.pagliei@gmail.com e riceverai una licenza d'uso
+2) Puoi usarlo per qualsiasi scopo. E' gratuito.
+3) Non hai alcun diritto di ricevere successivi aggiornamenti. Questo e' a discrezione 
+   dell'autore
+4) Non e' possibile redistribuirlo senza un permesso scritto dell'autore
+5) Utilizzi il software a tuo rischio e' pericolo. L'AUTORE NON É E NON SARA' RESPONSABILE 
+   O CHIAMABILE IN CAUSA COME PARTE LESIVA PER DANNI, PERDITE, PERDITE DI DATI, DANNEGGIAMENTI, 
+   DERIVANTI DALL'USO DEL PROGRAMMA
+7) Non e' garantito alcun supporto. Scrivi a carlo.pagliei@gmail.com e sarò comunque felice di 
+   risponderti
+6) Un ringraziamento speciale va alla "Clinica Veterinaria Pandora" che ha contribuito attivamente 
+   allo sviluppo del software. Per la suddetta ditta vengono garantiti tutti i futuri aggiornamenti
+   il software portà essere usato gratuitamente.
+
+StudioVet viene usato a vostro rischio e pericolo, senza alcuna garanzia, di nessun tipo. 
+L'autore non si riterra' responsabile di alcun danno, perdita di dati o danneggiamenti 
+che l'utilizzo del materiale incluso possa arrecare.
+
+Tutti i nomi, loghi, marchi, eccetera, costituiscono marchi registrati e/o copyright 
+dei rispettivi aventi diritto.
+
+
+
+---------------------------------------------------------------------------
+
+
+CONDIZIONI E LICENZA D'USO
+QUESTO PROGRAMMA VIENE DISTRIBUITO A TITOLO GRATUITO.
+L'USO DEL PROGRAMMA É AD ESCLUSIVO RISCHIO E PERICOLO DELL'UTILIZZATORE FINALE - 
+L'AUTORE NON É E NON SARA' RESPONSABILE O CHIAMABILE IN CAUSA COME PARTE LESIVA 
+PER DANNI, PERDITE, PERDITE DI DATI, DANNEGGIAMENTI, DERIVANTI DALL'USO DEL PROGRAMMA, 
+COME PURE NON É GARANTITO ALCUN SUPPORTO PER LO STESSO.
+
+TUTTE LE INFORMAZIONI FONO FORNITE "COME SONO" SENZA PROVVEDERE ALCUNA GARANZIA DI 
+NESSUN TIPO. IN DEROGA AGLI ARTT. 1578 E SEGUENTI COD. CIV., L'AUTORE NON FORNISCE 
+ALCUNA GARANZIA, ESPRESSE O IMPLICITA, TRA LE ALTRE, LA GARANZIA DI COMMERCIABILITA' 
+ED IDONEITA' PER FINI PARTICOLARI, RELATIVAMENTE AL SOFTWARE, MATERIALE SCRITTO FORNITO 
+A CORREDO ED AD ESSO CONNESSO.
+NESSUNA RIVENDICAZIONE PUO' ESSERE INTRAPPRESA PER EVENTUALI DANNI DERIVANTI DALL'USO, 
+PROPRIO E/O IMPROPRIO, INABILITA' NELL'USO COME PURE DALL'INADEGUATEZZA DELLO STESSO; 
+CIO' VALE PER OGNI TIPO DI DANNO, SENZA LIMITAZIONE ALCUNA, INCLUSI DANNO PER PERDITA 
+O MANCATO GUADAGNO, PERDITA DI INFORMAZIONI E/O ALTRE PERDITE ECONOMICHE, SENZA 
+LIMITAZIONI TEMPORALI.
+NON SI RISPONDE PER EVENUALI INCOMPATIBILITA' CON L'HARDWARE.
+NON VIENE AUTORIZZATA ALCUN TIPO DI GARANZIA, ORALE O SCRITTA, SE NON QUELLE DERIVANTI 
+DALL'AUTORE STESSO.
+
+TUTTI I NOMI, LOGHI, MARCHI, ETC. CITATI COSTITUISCONO MARCHIO REGISTRATO E/O PROPRIETA' 
+DEI RISPETTIVI AVENTI DIRITTO.
+
+
+
+
+===========================================================================
+
+
+Carlo Pagliei
+http://www.carlop.com
+carlo.pagliei@gmail.com
+
+===========================================================================</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 173</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 14</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Please read the end user license agreement (EULA)</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 364</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 30</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 18</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Beta 1</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>628, 404</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 8.25pt</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Informazioni su StudioVet</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AboutBox</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

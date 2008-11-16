@@ -1,0 +1,297 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED6B2130-7860-48DC-81F3-EEF8EAC2ABBF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StudioVet.Core</RootNamespace>
+    <AssemblyName>StudioVet.Core</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Configuration\Config.cs" />
+    <Compile Include="Properties\translation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>translation.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\translation.it.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>translation.it.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Attributes.cs" />
+    <Compile Include="Source\Configuration\ConfigEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\Configuration\ConfigEdit.Designer.cs">
+      <DependentUpon>ConfigEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Misc\CaptureFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\Misc\CaptureFiles.Designer.cs">
+      <DependentUpon>CaptureFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Misc\InvoiceMgmt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\Misc\InvoiceMgmt.Designer.cs">
+      <DependentUpon>InvoiceMgmt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Misc\RemindersEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\Misc\RemindersEdit.Designer.cs">
+      <DependentUpon>RemindersEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Misc\SelectPaymentTerm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\Misc\SelectPaymentTerm.Designer.cs">
+      <DependentUpon>SelectPaymentTerm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Misc\TabularReport.cs" />
+    <Compile Include="Source\PatientForm\DocumentMgmt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\PatientForm\DocumentMgmt.Designer.cs">
+      <DependentUpon>DocumentMgmt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\PersonPatient\DbPerson.cs" />
+    <Compile Include="Source\PersonPatient\DbPatient.cs" />
+    <Compile Include="Source\PatientForm\DbVisit.cs" />
+    <Compile Include="Source\Misc\DialogHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\Misc\DialogHost.Designer.cs">
+      <DependentUpon>DialogHost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\PatientForm\ServiceDispenseBooster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\PatientForm\ServiceDispenseBooster.Designer.cs">
+      <DependentUpon>ServiceDispenseBooster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\PatientForm\Visit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\PatientForm\Visit.Designer.cs">
+      <DependentUpon>Visit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\PatientForm\VisitList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\PatientForm\VisitList.Designer.cs">
+      <DependentUpon>VisitList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\PersonPatient\AnimalData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\PersonPatient\AnimalData.Designer.cs">
+      <DependentUpon>AnimalData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\PatientForm\PatientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\PatientForm\PatientForm.Designer.cs">
+      <DependentUpon>PatientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\PersonPatient\PatientList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\PersonPatient\PatientList.Designer.cs">
+      <DependentUpon>PatientList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\PersonPatient\Person.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\PersonPatient\Person.Designer.cs">
+      <DependentUpon>Person.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Misc\GenericDirectoryEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\Misc\GenericDirectoryEdit.Designer.cs">
+      <DependentUpon>GenericDirectoryEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\PersonPatient\PersonData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\PersonPatient\PersonData.Designer.cs">
+      <DependentUpon>PersonData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source\Misc\GenericDirectoryView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\Misc\GenericDirectoryView.Designer.cs">
+      <DependentUpon>GenericDirectoryView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\translation.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>translation.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>StudioVet.Localization</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\translation.it.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>translation.it.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>StudioVet.Localization</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\Configuration\ConfigEdit.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConfigEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\Configuration\ConfigEdit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConfigEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\Misc\CaptureFiles.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CaptureFiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\Misc\CaptureFiles.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CaptureFiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\Misc\InvoiceMgmt.resx">
+      <DependentUpon>InvoiceMgmt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\Misc\RemindersEdit.resx">
+      <DependentUpon>RemindersEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\Misc\DialogHost.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DialogHost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\Misc\DialogHost.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DialogHost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\Misc\SelectPaymentTerm.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectPaymentTerm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\Misc\SelectPaymentTerm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectPaymentTerm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\PatientForm\DocumentMgmt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentMgmt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\PatientForm\PatientForm.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PatientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\PatientForm\ServiceDispenseBooster.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ServiceDispenseBooster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\PatientForm\Visit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Visit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\PatientForm\VisitList.resx">
+      <DependentUpon>VisitList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\PersonPatient\AnimalData.resx">
+      <DependentUpon>AnimalData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\PatientForm\PatientForm.resx">
+      <DependentUpon>PatientForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\PersonPatient\PatientList.resx">
+      <DependentUpon>PatientList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\PersonPatient\Person.resx">
+      <DependentUpon>Person.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\Misc\GenericDirectoryEdit.resx">
+      <DependentUpon>GenericDirectoryEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\PersonPatient\PersonData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PersonData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\Misc\GenericDirectoryView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GenericDirectoryView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib\Carlop.BaseLib\Carlop.BaseLib.csproj">
+      <Project>{0BB1826C-9647-4CE9-9B5F-F5B4D68F63B5}</Project>
+      <Name>Carlop.BaseLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\lib\Carlop.Graphics\Carlop.Graphics.csproj">
+      <Project>{65F8692E-A9FD-49F7-A2AA-DE526CE8C259}</Project>
+      <Name>Carlop.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StudioVet.WIA\StudioVet.WIA.csproj">
+      <Project>{960C5383-D0ED-4B28-AE78-EFA53CD7E0F0}</Project>
+      <Name>StudioVet.WIA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
