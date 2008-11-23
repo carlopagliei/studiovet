@@ -1,0 +1,41 @@
+﻿body
+{
+    font-family: Verdana;
+    font-size: 0.8em;
+    background-color: #E3EAEB;
+}
+.masterPanelText
+{
+    vertical-align: middle;
+    font-weight:bolder;
+    font-size:xx-large;
+    font-variant:small-caps;
+    font-family: Georgia;
+    color: #cc0000;
+}
+.masterPanelText3
+{
+    vertical-align: text-bottom;
+    font-weight:normal;
+    font-size:large;
+    font-variant:small-caps;
+    font-family: Georgia;
+    color: #cccccc;
+}
+.masterPanelText2
+{
+    vertical-align: text-bottom;
+    font-weight:normal;
+    font-size:large;
+    font-family: Courier New;
+    color: #cccccc;
+}
+.masterLeftBar
+{
+    vertical-align: top;
+    font-weight:normal;
+    font-size:large;
+    font-variant:small-caps;
+    font-family: Georgia;
+    background: #bbccdd;
+}

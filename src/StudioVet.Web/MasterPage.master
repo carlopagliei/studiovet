@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Panel ID="Panel1" runat="server" SkinID="masterPanel" Height="58px">
+            <asp:Table ID="Table1" runat="server" CellPadding="2">
+                <asp:TableRow>
+                    <asp:TableCell Width="60px">
+                        <asp:Image ID="Image1" runat="server" Height="46px" ImageUrl="~/Img/RedDog128.png"
+                            Width="46px" />
+                    </asp:TableCell>
+                    <asp:TableCell Width="100%" CssClass="masterPanelText">S t u d i o V e t &nbsp;&nbsp;&nbsp;  W e b A c c e s s</asp:TableCell>
+                    <asp:TableCell Width="100%" CssClass="masterPanelText2">
+                        <asp:LoginStatus ID="LoginStatus1" SkinID="loginStatus" runat="server" />
+                    </asp:TableCell>
+                    <asp:TableCell Width="100%" CssClass="masterPanelText3">
+                        <asp:LoginName ID="LoginName1" runat="server" />
+                    </asp:TableCell>
+                </asp:TableRow>
+            </asp:Table>
+        </asp:Panel>
+    </div>
+    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    <asp:Table ID="Table2" runat="server" Width="100%" Height="280px">
+        <asp:TableRow Height="100%">
+            <asp:TableCell Width="20%" CssClass="masterLeftBar">
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Vertical"
+                    StaticDisplayLevels="2">
+                </asp:Menu>
+            </asp:TableCell>
+            <asp:TableCell Width="100%">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </asp:TableCell>
+        </asp:TableRow>
+    </asp:Table>
+    </form>
+</body>
+</html>
