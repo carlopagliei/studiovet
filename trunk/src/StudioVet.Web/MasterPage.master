@@ -28,20 +28,18 @@
             </asp:Table>
         </asp:Panel>
     </div>
-    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
-    <asp:Table ID="Table2" runat="server" Width="100%" Height="280px">
-        <asp:TableRow Height="100%">
-            <asp:TableCell Width="20%" CssClass="masterLeftBar">
-                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Vertical"
-                    StaticDisplayLevels="2">
-                </asp:Menu>
-            </asp:TableCell>
-            <asp:TableCell Width="100%">
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
-            </asp:TableCell>
-        </asp:TableRow>
-    </asp:Table>
+    <div id="main">
+        aaaaa<br />
+        aaaaa<br />
+        aaaaa<br />
+    </div>
+    <div id="list1" class="link-list">
+        bbbbb<br />
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
     </form>
 </body>
 </html>
